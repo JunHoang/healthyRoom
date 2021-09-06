@@ -1,42 +1,16 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
+const Header = () => {
+  return (
+    <header className="bg-green-900 text-gray-100 pt-16 pb-10 text-center">
+      <h1 className="font-semibold font-rammetto lg:text-5xl sm:text-4xl text-2xl pb-4">
+        Welcome to the Health Room
       </h1>
-    </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+      <p className="lg:text-2xl sm:text-lg text-sm font-light">
+        Your one stop blog for health and fitness information
+      </p>
+    </header>
+  )
 }
 
 export default Header
