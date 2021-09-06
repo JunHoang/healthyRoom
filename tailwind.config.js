@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      montserrat: ["Montserrat, san-serif"],
+      montserrat: ["Montserrat, sans-serif"],
       rammetto: ["Rammetto One, cursive"],
     },
     extend: {},

@@ -3,3 +3,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-montserrat;
+}
+
+ul li {
+  @apply ml-4;
+}
+
+.article h2 {
+  @apply font-semibold;
+  @apply py-4;
+}
