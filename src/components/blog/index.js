@@ -35,7 +35,7 @@ const Blog = () => {
   return (
     <div className="px-10 py-12">
       <h3 className="text-2xl font-rammetto">Healthy Tips For You</h3>
-      <div className="grid md:grid-cols-3 grids-cols-2 gap-x-4 gap-y-10 mt-8">
+      <div className="grid md:grid-cols-3 grid-cols-2 gap-x-4 gap-y-10 mt-8">
         {allArticles}
       </div>
     </div>
